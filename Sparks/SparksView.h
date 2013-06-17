@@ -1,8 +1,8 @@
 //
-//  SparksView.h
-//  Sparks
+//  circleView.h
+//  circle
 //
-//  Created by Edward Marczak on 6/17/13.
+//  Created by Edward Marczak on 6/11/13.
 //  Copyright (c) 2013 Radiotope. All rights reserved.
 //
 

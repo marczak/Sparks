@@ -11,6 +11,8 @@
 		5A8C62D0176F4A3C009837EA /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8C62CF176F4A3C009837EA /* ScreenSaver.framework */; };
 		5A8C62DA176F4A3C009837EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A8C62D8176F4A3C009837EA /* InfoPlist.strings */; };
 		5A8C62DE176F4A3C009837EA /* SparksView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8C62DD176F4A3C009837EA /* SparksView.m */; };
+		5AC3F131176F4B1300DFBE76 /* Spark.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AC3F12F176F4B1300DFBE76 /* Spark.h */; };
+		5AC3F132176F4B1300DFBE76 /* Spark.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC3F130176F4B1300DFBE76 /* Spark.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		5A8C62DB176F4A3C009837EA /* Sparks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sparks-Prefix.pch"; sourceTree = "<group>"; };
 		5A8C62DC176F4A3C009837EA /* SparksView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SparksView.h; sourceTree = "<group>"; };
 		5A8C62DD176F4A3C009837EA /* SparksView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SparksView.m; sourceTree = "<group>"; };
+		5AC3F12F176F4B1300DFBE76 /* Spark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spark.h; sourceTree = "<group>"; };
+		5AC3F130176F4B1300DFBE76 /* Spark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Spark.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 		5A8C62D5176F4A3C009837EA /* Sparks */ = {
 			isa = PBXGroup;
 			children = (
+				5AC3F12F176F4B1300DFBE76 /* Spark.h */,
+				5AC3F130176F4B1300DFBE76 /* Spark.m */,
 				5A8C62DC176F4A3C009837EA /* SparksView.h */,
 				5A8C62DD176F4A3C009837EA /* SparksView.m */,
 				5A8C62D6176F4A3C009837EA /* Supporting Files */,
@@ -104,6 +110,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AC3F131176F4B1300DFBE76 /* Spark.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A8C62DE176F4A3C009837EA /* SparksView.m in Sources */,
+				5AC3F132176F4B1300DFBE76 /* Spark.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +227,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_ENABLE_OBJC_GC = supported;
+				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -259,7 +267,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_ENABLE_OBJC_GC = supported;
+				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -316,6 +324,7 @@
 				5A8C62E3176F4A3C009837EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
